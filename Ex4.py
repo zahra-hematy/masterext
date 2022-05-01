@@ -359,7 +359,7 @@ def FOM(path1, path2):
     return fom
 
 
-# FOM( './/EX4-DataSet//Original//1.jpg', './/EX4-DataSet//Noise_eliminated//remove_salt-pepper.jpg')   #---------->0
-# FOM( './/EX4-DataSet//Original//2.jpg', './/EX4-DataSet//Noise_eliminated//remove_gaussian.jpg')  #---------->0
-# FOM('.//EX4-DataSet//Original//3.jpg', './/EX4-DataSet//Noise_eliminated//remove_periodic_noise.jpg')  #---------->43272
-# FOM('.//EX4-DataSet//Original//4.jpg', './/EX4-DataSet//Noise_eliminated//remove_speckle.jpg')  #---------->
+FOM( './/EX4-DataSet//Original//1.jpg', './/EX4-DataSet//Noise_eliminated//remove_salt-pepper.jpg')   #---------->0
+FOM( './/EX4-DataSet//Original//2.jpg', './/EX4-DataSet//Noise_eliminated//remove_gaussian.jpg')  #---------->0
+FOM('.//EX4-DataSet//Original//3.jpg', './/EX4-DataSet//Noise_eliminated//remove_periodic_noise.jpg')  #---------->43272
+FOM('.//EX4-DataSet//Original//4.jpg', './/EX4-DataSet//Noise_eliminated//remove_speckle.jpg')  #---------->
